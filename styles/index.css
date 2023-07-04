@@ -1,0 +1,144 @@
+/* Container holding the image and the text */
+.text-over-img {
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    overflow: hidden;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+
+}
+
+.top-left h5 {
+    font-size: 18px;
+}
+
+.top-left h1 {
+    width: 30%;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.top-left h6 {
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    width: 40%;
+    margin-bottom: 55px;
+}
+
+.submit .btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    margin-left: 5px;
+}
+
+
+
+.choose-us {
+    margin-top: 3rem;
+    background-color: #0d6efd;
+    color: white;
+    padding: 10rem;
+    padding-top: 5rem;
+}
+
+.choose-us h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.partner {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.partner .row div {
+    margin-bottom: 5rem;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    .top-left {
+
+        top: 50px;
+        left: 200px;
+
+    }
+
+    .top-left h6 {
+        width: 70%;
+    }
+
+    .top-left h1 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1055px) {
+    .top-left h6 {
+        font-size: 18px;
+    }
+
+    .top-left h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .top-left {
+        top: 15px;
+        left: 30px;
+    }
+
+    .top-left h5 {
+        font-size: 10px;
+    }
+
+    .top-left h1 {
+        width: 60%;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .top-left h6 {
+        font-size: 12px;
+        letter-spacing: 1px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    .submit {
+        width: 98%;
+    }
+
+    .submit .btn {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        width: 45%;
+        height: 20%;
+        margin-bottom: 0px;
+
+    }
+
+    .choose-us {
+        padding: 2rem;
+    }
+
+    .choose-us h1 {
+        margin-bottom: 2rem;
+    }
+
+    .partner iframe {
+        width: 100%;
+    }
+}

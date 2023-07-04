@@ -1,0 +1,13 @@
+.services {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.services p {
+    font-weight: 100;
+}
+
+.services .row {
+    margin-top: 50px;
+
+}

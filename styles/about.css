@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f4f8;
+}
+
+nav {
+    background-color: white;
+}
+
+.page-content {
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    padding: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: justify;
+    word-break: keep-all;
+    letter-spacing: 1px;
+}
+
+.page-content h3 {
+    margin-bottom: 1rem;
+}
+
+.page-content div {
+    margin-bottom: 3rem;
+}
+
+span.value {
+    font-weight: bold;
+}
+
+@media screen and (max-width:400px) {
+    .page-content {
+        width: 90%;
+        padding: 2rem;
+        text-align: left;
+    }
+}

@@ -1,4 +1,9 @@
 /* Container holding the image and the text */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .text-over-img {
     position: relative;
     /* text-align: center; */
@@ -6,14 +11,9 @@
     overflow: hidden;
 }
 
-.text-over-img2 {
-    position: relative;
-    /* text-align: center; */
-    color: white;
-    overflow: hidden;
-}
 
-.text-over-img2 {
+
+#img2 {
     display: none;
 }
 
@@ -79,7 +79,6 @@
 
 @media screen and (max-width:1200px) {
     .top-left {
-
         top: 50px;
         left: 200px;
 
@@ -105,11 +104,11 @@
 }
 
 @media screen and (max-width:400px) {
-    .text-over-img {
+    #img1 {
         display: none;
     }
 
-    .text-over-img2 {
+    #img2 {
         display: inline-block;
     }
 
